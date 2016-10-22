@@ -1,14 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.IO;
 
 namespace GreatFileReader
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
+            foreach (var line in File.ReadLines(@"C:\Projects\GreatFileReader\GreatFileReader.csproj"))
+            {
+                Console.WriteLine(line);
+                Console.ReadKey();
+            }
+
+            Console.ReadKey();
         }
     }
 }
