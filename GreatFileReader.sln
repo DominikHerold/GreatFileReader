@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatFileReader", "GreatFileReader\GreatFileReader.csproj", "{0719E17C-6BDD-4F01-9724-B499D3C6C877}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatFileReader", "GreatFileReader.csproj", "{0719E17C-6BDD-4F01-9724-B499D3C6C877}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
